@@ -1,0 +1,1 @@
+export const categories = ['Edukacja', 'Pomoc domowa', 'Transport', 'Inne'];

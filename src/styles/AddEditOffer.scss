@@ -1,0 +1,46 @@
+.offer-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+    h2 {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  
+    input,
+    textarea,
+    select {
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 0.4rem;
+      font-size: 1rem;
+    }
+  
+    textarea {
+      min-height: 100px;
+      resize: vertical;
+    }
+  
+    button {
+      padding: 0.7rem;
+      font-weight: bold;
+      background-color: rgb(76, 175, 80);
+      color: white;
+      border: none;
+      border-radius: 0.4rem;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: rgb(63, 148, 65);
+      }
+    }
+  }
+  
